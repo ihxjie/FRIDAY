@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/jwxt">
+        <item
+            android:id="@+id/nav_courseTable"
+            android:title="Course"
+            android:icon="@drawable/nav_course"/>
+        <item
+            android:id="@+id/nav_examTable"
+            android:title="Exam"
+            android:icon="@drawable/nav_exam"/>
+        <item
+            android:id="@+id/nav_gradeTable"
+            android:title="Grade"
+            android:icon="@drawable/nav_grade"/>
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/qcx">
+        <item
+            android:title="qcx"
+            android:icon="@drawable/nav_course"/>
+
+
+    </group>
+
+</menu>
